@@ -2,7 +2,7 @@
 def run_guessing_game
   correct = rand(6) + 1
   correct = correct.to_s
-  puts "Guess a number between 1 and 6."
+  puts "Guess a number between 1 and 6.#{correct}"
   num = gets.chomp
   if num == "exit"
     puts "Goodbye!"
